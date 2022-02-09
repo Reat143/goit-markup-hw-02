@@ -1,0 +1,12 @@
+/* Header */
+.logo {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #212121;
+}
+.logo .accent {
+  color: #2196f3;
+}
