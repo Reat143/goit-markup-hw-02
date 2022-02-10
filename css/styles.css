@@ -8,7 +8,7 @@
 #E5E5E5 - Main Backgroung (White);
 #2F303A - Secondary Background (Dark grey).
 */
-.root {
+:root {
   /* Text colors */
   --main-text-color: #757575;
   --title-color: #212121;
@@ -50,4 +50,9 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--title-color);
+}
+
+.nav-link .link:hover,
+.nav-link .link:focus {
+  color: var(--accent-color);
 }
