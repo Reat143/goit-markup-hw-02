@@ -1,0 +1,53 @@
+/* Font-family: 'Roboto', 'Raleway', sans-serif. */
+
+/* Colors
+#2196F3 - Accent color (Blue);
+#FFFFFF - White color;
+#212121 - Black color;
+#757575 - Main text (Light grey);
+#E5E5E5 - Main Backgroung (White);
+#2F303A - Secondary Background (Dark grey).
+*/
+.root {
+  /* Text colors */
+  --main-text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  /* Background colors */
+  --main-bg-color: #e5e5e5;
+  --secondary-bg-color: #2f303a;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.nav-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--title-color);
+}
