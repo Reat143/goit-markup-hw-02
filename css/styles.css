@@ -26,7 +26,7 @@ body {
 
   color: #757575;
 }
-
+/* Header */
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -54,5 +54,20 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
+  color: var(--accent-color);
+}
+
+.header-list {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--main-text-color);
+}
+
+.mail-link:hover,
+.mail-link:focus {
   color: var(--accent-color);
 }
