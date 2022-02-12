@@ -19,8 +19,8 @@
   --white: #ffffff;
   --black: #000000;
   /* Background colors */
-  --main-bg-color: #e5e5e5;
-  --secondary-bg-color: #2f303a;
+  --first-bg-color: #e5e5e5;
+  --second-bg-color: #2f303a;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  background-color: var(--main-bg-color);
+  background-color: var(--white);
 }
 
 /* Header */
@@ -91,7 +91,7 @@ body {
 
 /* Hero */
 .hero {
-  background-color: var(--secondary-bg-color);
+  background-color: var(--second-bg-color);
 }
 .title-hero {
   font-family: var(--main-font);
@@ -117,6 +117,9 @@ body {
   background-color: var(--accent-color);
 }
 /* Advantages */
+.advantage-list {
+  list-style: none;
+}
 .advantage-title {
   position: absolute;
   width: 1px;
@@ -147,6 +150,9 @@ body {
 }
 
 /* What we do */
+.activity-list {
+  list-style: none;
+}
 .activity-title {
   font-family: var(--main-font);
   font-weight: 700;
@@ -157,6 +163,12 @@ body {
 }
 
 /* Team */
+.team {
+  background-color: var(--first-bg-color);
+}
+.team-list {
+  list-style: none;
+}
 .team-title {
   font-family: var(--main-font);
   font-weight: 700;
@@ -184,7 +196,7 @@ body {
 /* Footer */
 
 .footer {
-  background-color: var(--secondary-bg-color);
+  background-color: var(--second-bg-color);
 }
 .footer-logo {
   font-family: var(--secondary-font);
@@ -199,20 +211,44 @@ body {
   color: var(--accent-color);
 }
 .footer-list {
+  list-style: none;
+}
+
+.footer-address-link {
   font-family: var(--main-font);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  list-style: none;
+  text-decoration: none;
   color: var(--white);
 }
-.footer-address-link,
-.footer-mail-link,
-.footer-tel-link {
+.footer-mail-link {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
 }
+.footer-tel-link {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address-link:hover,
+.footer-mail-link:hover,
+.footer-tel-link:hover,
 .footer-address-link:focus,
 .footer-mail-link:focus,
 .footer-tel-link:focus {
-  color: var(--main-text-color);
+  color: var(--accent-color);
 }
+
+/* Portfolio */
